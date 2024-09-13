@@ -11,7 +11,7 @@ const app = express();
 
 // CORS 설정
 const corsOptions = {
-  origin: "https://frontend-practice-wheat.vercel.app/", // 여기에 프론트엔드 도메인을 입력하세요
+  origin: "https://frontend-practice-wheat.vercel.app", // 여기에 프론트엔드 도메인을 입력하세요
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type"],
 };
